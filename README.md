@@ -11,9 +11,10 @@ Please remember openSUSE is not SUSE, and neither this nor any other website wit
 
 ## How to build?
 
+Required software on openSUSE Hosts:  ruby3.2-devel, and gcc-c++
 ```bash
-bundle install --path vendor/bundle
-bundle exec jekyll build
+bundle.ruby3.2 install --path vendor/bundle
+bundle.ruby3.2 exec jekyll build
 ```
 
 Resulting site will be in `_site` directory.
@@ -21,8 +22,8 @@ Resulting site will be in `_site` directory.
 ## How to serve locally?
 
 ```bash
-bundle install --path vendor/bundle
-bundle exec jekyll serve
+bundle.ruby3.2 install --path vendor/bundle
+bundle.ruby3.2 exec jekyll serve
 ```
 
 Visit <http://127.0.0.1:4000/> in your browser.
