@@ -13,7 +13,6 @@ Please remember openSUSE is not SUSE, and neither this nor any other website wit
 
 Required software on openSUSE Hosts:  ruby3.2-devel, and gcc-c++
 ```bash
-bundler.ruby3.2 add webrick
 bundle.ruby3.2 install --path vendor/bundle
 bundle.ruby3.2 exec jekyll build
 ```
@@ -23,7 +22,6 @@ Resulting site will be in `_site` directory.
 ## How to serve locally?
 
 ```bash
-bundler.ruby3.2 add webrick
 bundle.ruby3.2 install --path vendor/bundle
 bundle.ruby3.2 exec jekyll serve
 ```
